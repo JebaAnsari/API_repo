@@ -6,6 +6,7 @@ async function fetchData() {
         const mainCard = document.querySelector('#card-container');
 
         for (let username of usernames) {
+            // made changes 
             console.log(`Fetching data for ${username}`);
 
             // Fetch user data
